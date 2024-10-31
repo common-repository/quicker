@@ -1,0 +1,521 @@
+# Copyright (C) 2024 Woooplugin
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quicker 1.0.13\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quicker\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-27T04:47:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: quicker\n"
+
+#. Plugin Name of the plugin
+#: quicker.php
+#: core/admin/menus.php:42
+#: core/admin/menus.php:43
+msgid "Quicker"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: quicker.php
+msgid "https://woooplugin.com/quicker/"
+msgstr ""
+
+#. Description of the plugin
+#: quicker.php
+msgid "Quicker comes to speedup you WooCommerce Checkout from multiple steps to single step."
+msgstr ""
+
+#. Author of the plugin
+#: quicker.php
+msgid "Woooplugin"
+msgstr ""
+
+#. Author URI of the plugin
+#: quicker.php
+msgid "https://woooplugin.com/"
+msgstr ""
+
+#: core/admin/checkout-fields.php:15
+#: core/admin/settings/tab-content/checkout-fees.php:40
+msgid "Label"
+msgstr ""
+
+#: core/admin/checkout-fields.php:16
+msgid "Name"
+msgstr ""
+
+#: core/admin/checkout-fields.php:17
+msgid "Placeholder"
+msgstr ""
+
+#: core/admin/checkout-fields.php:18
+msgid "Required"
+msgstr ""
+
+#: core/admin/checkout-fields.php:19
+msgid "Enabled"
+msgstr ""
+
+#: core/admin/checkout-fields.php:20
+msgid "Actions"
+msgstr ""
+
+#: core/admin/checkout-fields.php:24
+msgid "All Checkout Field"
+msgstr ""
+
+#: core/admin/checkout-fields.php:25
+msgid "All Discount Rules"
+msgstr ""
+
+#: core/admin/checkout-fields.php:34
+#: core/admin/header.php:21
+#: core/admin/menus.php:116
+#: core/admin/menus.php:117
+msgid "Checkout Fields"
+msgstr ""
+
+#: core/admin/checkout-fields.php:36
+#: core/admin/checkout-fields.php:53
+msgid "Add New Checkout Field"
+msgstr ""
+
+#: core/admin/checkout-fields.php:66
+msgid "Field Position:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:71
+msgid "Input Type:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:73
+msgid "Text"
+msgstr ""
+
+#: core/admin/checkout-fields.php:74
+msgid "Number"
+msgstr ""
+
+#: core/admin/checkout-fields.php:75
+msgid "Hidden"
+msgstr ""
+
+#: core/admin/checkout-fields.php:97
+#: core/admin/settings/tab-content/add-fees.php:7
+msgid "Label:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:105
+msgid "Name:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:115
+msgid "Placeholder:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:122
+msgid "Required:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:127
+msgid "Enabled:"
+msgstr ""
+
+#: core/admin/checkout-fields.php:132
+#: core/admin/settings/form.php:44
+msgid "Save Changes"
+msgstr ""
+
+#: core/admin/header.php:15
+#: core/admin/menus.php:107
+#: core/admin/menus.php:108
+#: core/admin/settings/form.php:23
+#: wrapper.php:38
+msgid "Settings"
+msgstr ""
+
+#: core/admin/header.php:27
+msgid "Support"
+msgstr ""
+
+#: core/admin/header.php:32
+msgid "Feature Request"
+msgstr ""
+
+#: core/admin/header.php:41
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: core/admin/menus.php:98
+#: core/admin/menus.php:99
+msgid "Overview"
+msgstr ""
+
+#: core/admin/overview.php:5
+msgid "One-Click Checkout can help you a simple button and the purchase will be immediately completed"
+msgstr ""
+
+#: core/admin/overview.php:6
+msgid "1 Click Checkout"
+msgstr ""
+
+#: core/admin/overview.php:10
+msgid "Checkout fields helps your Checkout page, blended with a simple and user-friendly interface"
+msgstr ""
+
+#: core/admin/overview.php:11
+msgid "Checkout Filed Editor"
+msgstr ""
+
+#: core/admin/overview.php:15
+msgid "Apply dynamic extra fees at checkout based on your customer’s choices, making your pricing strategies more flexible and transparent"
+msgstr ""
+
+#: core/admin/overview.php:16
+msgid "Extra Fees in Checkout"
+msgstr ""
+
+#: core/admin/overview.php:20
+msgid "Create a beautiful sliding cart for your WooCommerce store.Customer can shop smoothly with a sidebar cart"
+msgstr ""
+
+#: core/admin/overview.php:21
+msgid "Side Cart/Mini Cart"
+msgstr ""
+
+#: core/admin/overview.php:25
+msgid "Advertise another product to the customer during checkout and boost up your sales"
+msgstr ""
+
+#: core/admin/overview.php:26
+msgid "Order Bump"
+msgstr ""
+
+#: core/admin/overview.php:30
+msgid "Customer will pay for the order will be made upon delivery and improve your store’s sales by providing customers with a simple, secure payment method"
+msgstr ""
+
+#: core/admin/overview.php:31
+msgid "Cash On Delivery Charge"
+msgstr ""
+
+#: core/admin/overview.php:35
+msgid "You can set timing for breakfast, lunch and dinner. If your specified lunch time is over then that menu item will not be available for the same day again"
+msgstr ""
+
+#: core/admin/overview.php:36
+msgid "Time Based Menu"
+msgstr ""
+
+#: core/admin/overview.php:40
+msgid "Set a minimum order quantity for products so that you ensure the fast-moving of the inventory"
+msgstr ""
+
+#: core/admin/overview.php:41
+msgid "Minimum/Maximum Order Amount"
+msgstr ""
+
+#: core/admin/overview.php:45
+msgid "Create a better user experience by splitting the checkout process"
+msgstr ""
+
+#: core/admin/overview.php:46
+msgid "Multi-Step Checkout"
+msgstr ""
+
+#: core/admin/overview.php:54
+msgid "Ultimate Membership"
+msgstr ""
+
+#: core/admin/overview.php:56
+msgid "Restrict content, manage member subscriptions"
+msgstr ""
+
+#: core/admin/overview.php:57
+#: core/admin/overview.php:67
+#: core/admin/overview.php:77
+msgid "Free Version"
+msgstr ""
+
+#: core/admin/overview.php:58
+#: core/admin/overview.php:68
+#: core/admin/overview.php:78
+msgid "Premium Version"
+msgstr ""
+
+#: core/admin/overview.php:64
+msgid "Advanced Filter for Wordpress and WooCommerce"
+msgstr ""
+
+#: core/admin/overview.php:66
+msgid "Allow users to filter and shortlist easily."
+msgstr ""
+
+#: core/admin/overview.php:74
+msgid "Discount and Coupon Management"
+msgstr ""
+
+#: core/admin/overview.php:76
+msgid "Transform Discounts into Profits"
+msgstr ""
+
+#: core/admin/overview.php:84
+msgid "Convert Your Browsers into Buyers and Maximize Conversions"
+msgstr ""
+
+#: core/admin/overview.php:85
+msgid "Your customers deserve a shopping experience that’s as smooth as silk. Quicker is your ultimate solution for a seamless and hassle-free WooCommerce quick checkout plugin. Say hello to higher conversion rates."
+msgstr ""
+
+#: core/admin/overview.php:88
+msgid "Explore Quicker Pro"
+msgstr ""
+
+#: core/admin/overview.php:102
+msgid "Update Your Checkout Process with Advanced Quick Checkout Plugin"
+msgstr ""
+
+#: core/admin/overview.php:103
+msgid "Available at Quicker Pro"
+msgstr ""
+
+#: core/admin/overview.php:117
+msgid "Explore the premium version to experience our countless advanced features."
+msgstr ""
+
+#: core/admin/overview.php:121
+msgid "Look Into Pro"
+msgstr ""
+
+#: core/admin/settings/form.php:13
+msgid "General Settings"
+msgstr ""
+
+#: core/admin/settings/form.php:14
+msgid "Checkout Fees"
+msgstr ""
+
+#: core/admin/settings/form.php:15
+msgid "Cart"
+msgstr ""
+
+#: core/admin/settings/settings.php:35
+msgid "Checkout fields Save Successfully..."
+msgstr ""
+
+#: core/admin/settings/settings.php:70
+msgid "Settings Save Successfully..."
+msgstr ""
+
+#: core/admin/settings/tab-content/add-fees.php:14
+msgid "Charge:"
+msgstr ""
+
+#: core/admin/settings/tab-content/add-fees.php:24
+msgid "Add Fees:"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:5
+msgid "Enable Custom Price in Checkout"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:13
+msgid "Custom Price Label in Checkout"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:20
+msgid "Price Field Type"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:22
+msgid "Select"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:22
+msgid "Radio"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:31
+msgid "Add Cash On Delivery Charge"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:45
+#: core/admin/settings/tab-content/checkout-fees.php:59
+msgid "Charge"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:51
+msgid "Add Delivery Charge Rules"
+msgstr ""
+
+#: core/admin/settings/tab-content/checkout-fees.php:53
+msgid "Minimum Cart Total"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:8
+msgid "Enable One-Click Checkout"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:14
+#: core/frontend/checkout-fields.php:75
+#: utils/helper.php:333
+msgid "Buy Now"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:15
+msgid "One Click Button Text"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:22
+msgid "Enable Quick View on Shop Page"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:31
+msgid "Quick View Button Text/Icon"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:32
+msgid "For Instance: <span><i class='fa fa-eye'></i>Quick View</span>"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:42
+msgid "Enable Min/Max Order Amount"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:50
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: core/admin/settings/tab-content/settings.php:59
+msgid "Maximum Order Amount"
+msgstr ""
+
+#: core/admin/settings/tab-content/side-cart.php:7
+msgid "Enable Side Cart/Mini-Cart"
+msgstr ""
+
+#: core/admin/settings/tab-content/side-cart.php:12
+msgid "Side Cart Template"
+msgstr ""
+
+#: core/admin/settings/tab-content/side-cart.php:19
+msgid "Side Order Bump Template"
+msgstr ""
+
+#: core/admin/settings/tab-content/side-cart.php:26
+msgid "Up-Sells Products"
+msgstr ""
+
+#: core/admin/settings/tab-content/side-cart.php:32
+msgid "Cross Products"
+msgstr ""
+
+#: core/admin/table.php:87
+msgid "Move to Trash"
+msgstr ""
+
+#: quicker.php:117
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: quicker.php:120
+msgid "Install WooCommerce"
+msgstr ""
+
+#: quicker.php:130
+msgid "Quicker requires WooCommerce , which is currently NOT RUNNING."
+msgstr ""
+
+#: utils/helper.php:286
+msgid "First Name"
+msgstr ""
+
+#: utils/helper.php:287
+msgid "Last Name"
+msgstr ""
+
+#: utils/helper.php:288
+msgid "Company Name"
+msgstr ""
+
+#: utils/helper.php:289
+msgid "Country/Region"
+msgstr ""
+
+#: utils/helper.php:290
+msgid "Address 1"
+msgstr ""
+
+#: utils/helper.php:291
+msgid "Address 2"
+msgstr ""
+
+#: utils/helper.php:292
+msgid "City"
+msgstr ""
+
+#: utils/helper.php:293
+msgid "Country/State"
+msgstr ""
+
+#: utils/helper.php:294
+msgid "Postcode"
+msgstr ""
+
+#: utils/helper.php:295
+msgid "Phone"
+msgstr ""
+
+#: utils/helper.php:317
+msgid "Quick View"
+msgstr ""
+
+#: utils/helper.php:330
+msgid "Delivery Charge"
+msgstr ""
+
+#: utils/helper.php:434
+msgid "Before Billing Form"
+msgstr ""
+
+#: utils/helper.php:435
+msgid "After Billing Form"
+msgstr ""
+
+#: utils/helper.php:436
+msgid "Before Shipping Form"
+msgstr ""
+
+#: utils/helper.php:437
+msgid "After Shipping Form"
+msgstr ""
+
+#: utils/helper.php:438
+msgid "Before Order Notes"
+msgstr ""
+
+#: utils/helper.php:439
+msgid "After Order Notes"
+msgstr ""
+
+#: utils/helper.php:474
+msgid "Security check failed"
+msgstr ""
+
+#: utils/helper.php:507
+msgid "Out of Stock"
+msgstr ""
+
+#: utils/helper.php:529
+msgid "Template"
+msgstr ""
+
+#: wrapper.php:40
+msgid "Go To Premium"
+msgstr ""

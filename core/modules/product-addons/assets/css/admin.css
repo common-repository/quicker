@@ -1,0 +1,251 @@
+
+.mb-1{
+	margin-bottom: 1%;
+}
+h2.content-header {
+	color: var(--filter-header-bg,#121212);
+	font-size: 16px !important;
+	font-weight: 700 !important;
+	line-height: 33.18px !important;
+	margin-bottom: 10px !important;
+	padding: 0 !important;
+}
+.quicker_pao_main_block{
+	margin-bottom: 15px;
+}
+.quicker-pao-fields{
+	background: #f0f0f1;
+	cursor: pointer;
+}
+.quicker-pao-option-default{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+#quicker_pao_content{
+	padding: 20px;
+}
+button.button-primary {
+    padding: 0px 10px !important;
+    font-size: 14px !important;
+    line-height: 25px !important;
+    background: var(--filter-primary-bg, #0D6EFD) !important;
+    border: 1px solid transparent !important;
+    border-radius: 6px !important;
+}
+.quicker-pao-header-section1,
+.quicker-pao-option-default,
+.quicker-pao-remove i{
+	line-height: 24px;
+}
+.quicker-item,.quicker-pao-header{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+.quicker-item{
+	background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.quicker-item .input-meta input.wpcafe-admin-control-input {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	display: none;
+  }
+  .quicker-item .input-meta label.wpcafe_switch_button_label {
+	cursor: pointer;
+	width: 42px;
+	height: 24px;
+	background: #DDDDDD;
+	display: inline-block;
+	border-radius: 100px;
+	position: relative;
+	margin: 0;
+	padding: 0 !important;
+  }
+  .quicker-item .input-meta label.wpcafe_switch_button_label:after {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 90px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+  }
+  .quicker-item .input-meta .wpcafe_switch_button_label:before {
+	content: attr(data-textalt);
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 10px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+  }
+  .quicker-item .input-meta input.wpcafe-admin-control-input:checked + label.wpcafe_switch_button_label {
+	background: #e3106e;
+  }
+  .quicker-item .input-meta input.wpcafe-admin-control-input:checked + label.wpcafe_switch_button_label:after {
+	left: calc(100% - 5px);
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+  }
+  .quicker-item .input-meta input.wpcafe-admin-control-input:checked + label.wpcafe_switch_button_label:before {
+	content: attr(data-text);
+	right: inherit;
+	left: 10px;
+  }
+  .quicker-item .input-meta label.show_label_text {
+	text-indent: 0px;
+  }
+  .quicker-item .input-meta .wpcafe-radio-btn > input[type=radio] {
+	display: none;
+  }
+  .quicker-item .input-meta .wpcafe-radio-btn > img {
+	cursor: pointer;
+	border: 1px solid #e3106e;
+	max-width: 100%;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-ms-border-radius: 6px;
+}
+.quicker-pao-option-header{
+    padding: 15px 0 !important;
+    background: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.quicker-pao-option-row,.quicker-pao-option-header{
+	display: grid;
+    grid-template-columns: 22px 25% 22% 12% 22% auto;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.input-meta{
+    display: flex;
+    align-items: end;
+}
+.input-meta input{
+	width: 100% !important;
+}
+.quicker_pao_desc{
+	margin-top: 10px !important;
+}
+.quicker-pao-name{
+	margin: 0 2px;
+}
+.show_block {
+    display: block;
+}
+.hide_block {
+    display: none;
+}
+.quicker-pao-option-footer{
+    float: right;
+    margin: 15px 5px;
+}
+.quicker-pao-option-wrap{
+	margin: 10px;
+}
+.quicker-pao-option-default label{
+	cursor: pointer;
+    margin: 0 !important;
+    padding-left: 3px !important;
+}
+
+.quicker-pao-fields,
+.quicker_pao_desc_enable-wrapper .input-meta{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+.quicker-pao-option-label input,.quicker-pao-option-price input{
+	width: 100% !important;
+}
+.quicker-desc,.quicker-pao-header-section1,
+.input-label-item
+{
+	display: flex;
+	align-items: center;
+}
+#woocommerce-product-data ul.wc-tabs li.quicker_pro_pao_tab a:before {
+    content: "\f174" !important;
+}
+.quicker_pao_main_block .quicker-pao-header .quicker-pao-header-section2 .quicker-pao-remove,
+.quicker-pao-option-remove {
+    width: 24px;
+    height: 24px;
+    min-height: 24px;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #2F4858;
+    color: #fff;
+    transition: 0.3s ease;
+}
+.quicker_pao_main_block .quicker-pao-header .quicker-pao-header-section2 .quicker-pao-remove:hover,
+.quicker_pao_main_block .quicker-pao-option-main-wrapper .quicker-pao-option-row .quicker-pao-option-remove:hover
+{
+    background-color: #e3106e;
+}
+.quicker-warning {
+    color: #e3106e;
+}
+.quicker_pao_main_block .quicker-pao-option-main-wrapper .quicker-pao-option-row .quicker-pao-option-remove {
+    border-radius: 8px;
+    background: #2F4858;
+    border-color: transparent;
+    color: #ffffff;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    line-height: 12px;
+    min-height: 20px;
+    transition: 0.3s ease;
+}
+
+.wpc-label-item .wpc-settings-input, .wpc-label-item .wpc-form-control {
+    width: 190px;
+    height: 42px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border: 1px solid #D2D5DF;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--wpc-dark-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.quicker-input{
+	width: 190px;
+    height: 42px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border: 1px solid #D2D5DF;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--quicker-dark-color,#000);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
